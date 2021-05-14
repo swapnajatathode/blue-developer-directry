@@ -1,0 +1,16 @@
+cache manifest
+#2013-02=08
+
+CACHE:
+index.html
+info.html
+css/style.com
+images/background.png
+
+
+#Require user to be online
+NETWORK:
+login.php
+
+FALLBACK:
+*.html offline.html
