@@ -1,0 +1,18 @@
+CACHE MANIFEST
+#2013-02=08
+
+CACHE:
+index.html
+info.html
+images/web.jpg
+css/style.com
+images/background.png
+
+
+#Require user to be online
+NETWORK:
+login.php
+
+# offline.html will be served in place of all other .html files
+FALLBACK:
+*.html offline.html
